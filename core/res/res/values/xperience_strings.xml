@@ -21,12 +21,18 @@
     <string name="alert_slider_state_path"></string>
     <string name="alert_slider_uevent_match_path"></string>
 
-    <!-- Reboot actions -->
-    <string name="reboot_to_recovery_title">Recovery</string>
-    <string name="reboot_to_recovery_message">Rebooting to recovery</string>
-    <string name="reboot_to_bootloader_title">Bootloader</string>
-    <string name="reboot_to_bootloader_message">Rebooting to bootloader</string>
-    <string name="reboot_title">Reboot</string>
-    <string name="reboot_message">Rebooting system</string>
-
+    <!-- Extended Restart -->
+    <!-- Defined in res/res/values/strings.xml -
+    <string name="global_action_restart">Restart</string>-->
+    <string name="global_action_quick_restart">Quick restart</string>
+    <string name="global_action_recovery">Recovery</string>
+    <string name="global_action_bootloader">Bootloader</string>
+    <!-- Shutdown Thread -->
+    <string name="global_restart">Restart</string>
+    <string name="global_restart_message">Restarting\u2026</string><!-- Can be used in SysUIReboot -->
+    <string name="global_quick_restart">Quick restart</string>
+    <string name="global_restart_recovery">Recovery</string>
+    <string name="global_restart_recovery_message">Restarting to recovery\u2026</string><!-- Can be used in SysUIReboot -->
+    <string name="global_restart_bootloader">Bootloader</string>
+    <string name="global_restart_bootloader_message">Restarting to bootloader\u2026</string><!-- Can be used in SysUIReboot -->
 </resources>
