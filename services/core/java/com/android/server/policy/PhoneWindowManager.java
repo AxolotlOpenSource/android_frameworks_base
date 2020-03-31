@@ -3833,7 +3833,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         }
 
         // Disable hw keys in Ambient and when screen off
-        if ((isDozeMode() || !isScreenOn()) && (appSwitchKey || homeKey || menuKey || backKey)) {
+        if ((!isScreenOn()) && (appSwitchKey || homeKey || menuKey || backKey)) {
             return 0;
         }
 
